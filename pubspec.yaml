@@ -1,15 +1,16 @@
 name: ping_win32
-description: A simple wrapper for Win32's ping (IcmpSendEcho2) function
-version: 0.0.1
+description: A simple wrapper for Win32 IcmpSendEcho2 function
+version: 0.0.2
 repository: https://github.com/espresso3389/ping_win32
 
 environment:
   sdk: ^3.0.0
 
-# Add regular dependencies here.
 dependencies:
   ffi: ^2.1.0
 
 dev_dependencies:
   lints: ^2.1.0
 
+platforms:
+  windows:
